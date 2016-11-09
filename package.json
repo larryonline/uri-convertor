@@ -1,6 +1,6 @@
 {
   "name": "uri-convertor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "uri convertor between regular uri / thunder / qqdl / flashget",
   "main": "main.js",
   "scripts": {
