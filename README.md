@@ -1,6 +1,6 @@
 # URI-Convertor
 
-URI convertor between regular uri / thunder / qqdl / flashget.
+URI convertor between regular uri / thunder / qqdl / flashget and more...
 
 
 ## How to use it.
