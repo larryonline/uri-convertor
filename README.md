@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/uri-convertor@2x.png)](https://badge.fury.io/js/uri-convertor)
+[![npm version](https://badge.fury.io/js/uri-convertor.png)](https://badge.fury.io/js/uri-convertor)
 
 # URI-Convertor
 
