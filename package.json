@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/larryonline/url-convertor.git"
+    "url": "git+https://github.com/larryonline/uri-convertor.git"
   },
   "keywords": [
     "uri",
