@@ -4,6 +4,20 @@
 
 URI convertor between `regular uri` / `thunder uri` / `qqdl uri` / `flashget uri` and more...
 
+## Installation
+
+* npm
+
+```
+npm install --save uri-convertor
+```
+
+* github
+
+```
+https://github.com/larryonline/url-convertor.git
+```
+
 
 ## How to use it.
 
@@ -35,3 +49,6 @@ uric.convert(uris, {
 	  // all style will have chance to be convert.
 });
 ```
+
+## Issues
+Any problems? please post issues [here](https://github.com/larryonline/uri-convertor/issues)
