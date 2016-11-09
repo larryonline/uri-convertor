@@ -15,7 +15,7 @@ npm install --save uri-convertor
 * github
 
 ```
-https://github.com/larryonline/url-convertor.git
+https://github.com/larryonline/uri-convertor.git
 ```
 
 
@@ -51,4 +51,4 @@ uric.convert(uris, {
 ```
 
 ## Issues
-Any problems? please post issues [here](https://github.com/larryonline/uri-convertor/issues)
+Any problems? please post issues [here](https://github.com/larryonline/url-convertor/issues)
