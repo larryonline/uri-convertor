@@ -1,0 +1,50 @@
+#!/usr/bin/env node
+
+
+var program = require('commander');
+
+const MODE_UNKNOWN = -1;
+const MODE_MAIN = 0;
+const MODE_LIST_STYLES = 1;
+
+var mode = MODE_UNKNOWN;
+var options = {};
+
+program
+	.version("0.0.1")
+	.usage('[options] <uri list separated by space>')
+	.option('--output', 'convert given uri to "output style separated by comma" style uri. for output style list please execute "uric --styles"')
+	.option('--styles', 'list output styles for -o | --output option')
+	.parse(process.argv);
+
+var main = require('../main')();
+
+if (program.styles) {
+	// print output style list.
+	console.log(main.styles());
+
+} else {
+	var options = {};
+	var uris = [];
+	if (program.output) {
+		options['styles'] = program.args[0];
+		uris = program.args.slice(1);
+	} else {
+		uris = program.args;
+	}
+
+	var result = main.convert(uris, options);
+	console.log('-- result --')
+
+	var indent = "  |-";
+	var separator = "\n"
+	for (var key in result) {
+		console.log(key);
+
+		var items = result[key];
+		for (var kk in items) {
+			console.log(indent, items[kk]);
+		}
+		console.log(separator);
+	}
+}
