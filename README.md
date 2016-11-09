@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/uri-convertor@2x.png)](https://badge.fury.io/js/uri-convertor)
+
 # URI-Convertor
 
 URI convertor between `regular uri` / `thunder uri` / `qqdl uri` / `flashget uri` and more...
